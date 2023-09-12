@@ -1,0 +1,172 @@
+* {
+  margin: 0px;
+  font-family: sans-serif;
+}
+.logoImage {
+  height: 60px;
+  width: 60px;
+}
+.logoHead {
+  font-size: 30px;
+  font-family: Bree Serif;
+  font-weight: bold;
+  font-style: italic;
+}
+.nav-item {
+  font-weight: 600;
+  color: black;
+}
+.freeTrail {
+  background-color: black;
+  color: white;
+  font-weight: bold;
+  border-top-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  border-top-left-radius: 20px;
+  font-size: 12px;
+  cursor: pointer;
+}
+.loginBtn {
+  border: 0px;
+  background-color: transparent;
+  font-weight: 600;
+  outline: none;
+  font-size: 15px;
+}
+#navbarCont {
+  padding-left: 150px;
+  padding-right: 150px;
+  margin-bottom: 40px;
+}
+.paymentCont {
+  border-style: solid;
+  border-width: 2px;
+  border-color: aqua;
+  width: 280px;
+  border-radius: 25px;
+}
+.month {
+  background-color: black;
+  color: white;
+  border-radius: 20px;
+}
+.basicPlanCont {
+  border-style: solid;
+  border-width: 2px;
+  border-color: aqua;
+  border-radius: 10px;
+  width: 380px;
+}
+.basicPlanCont-2 {
+  border-style: solid;
+  border-width: 0px;
+  border-radius: 10px;
+  width: 380px;
+}
+.basicPlanCont-3 {
+  border-style: solid;
+  border-width: 0px;
+  border-radius: 10px;
+  width: 380px;
+}
+.headPara {
+  color: black;
+  font-weight: bold;
+}
+.basicPara {
+  font-size: 14px;
+  font-weight: 700;
+}
+.basicDesc {
+  color: gray;
+  font-size: 14px;
+}
+.amountHead {
+  font-weight: bold;
+  font-size: 40px;
+}
+.inrPara {
+  font-weight: 0;
+  font-size: 15px;
+}
+.durationPara {
+  font-weight: 600;
+  font-size: 15px;
+}
+.durationCont {
+  border-style: solid;
+  border-width: 1px;
+  border-left: 0px;
+  border-right: 0px;
+  border-color: lightgreen;
+}
+.includedHead {
+  font-size: 15px;
+  font-weight: 600;
+  color: black;
+}
+.benefitPara {
+  font-size: 15px;
+  color: black;
+  font-family: Bree Serif;
+}
+.planBtn {
+  border-style: solid;
+  border-width: 0px;
+  border-radius: 20px;
+  background-color: black;
+  color: white;
+  width: 100%;
+}
+.plansCont {
+  display: flex;
+  align-items: center;
+}
+legend {
+  background-image: linear-gradient(to right, #42f5b6, #0af749);
+  padding: 0 10px;
+  position: relative;
+  top: -20px;
+  border-radius: 20px;
+  font-size: 10px;
+  font-weight: bold;
+}
+
+fieldset {
+  border: 1px solid #ccc;
+  padding: 20px;
+  position: relative;
+}
+
+@media screen and (max-width: 776px) {
+  .plansCont {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-left: 25px;
+  }
+  #navbarCont {
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-bottom: 0px;
+  }
+  .smallFree {
+    text-decoration: underline;
+    font-size: 18px;
+    font-weight: 700;
+  }
+  .planButton {
+    width: 130px;
+    font-weight: bold;
+    font-size: 15px;
+    color: black;
+    font-family: Bree Serif;
+    border-style: solid;
+    border-width: 1px;
+    border-color: gray;
+    background-color: transparent;
+    cursor: pointer;
+  }
+}
